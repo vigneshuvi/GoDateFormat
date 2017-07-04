@@ -37,8 +37,9 @@ import (
 ```go
 
 func main() {
-    var goFormat = GoDateFormat.ConvertFormat("yyyy-MM-dd HH:mm:ss Z")
-    fmt.Println("Go Long Date Format(Today): ", GetToday(goFormat))
+    fmt.Println("Go Date Format(Today - 'yyyy-MM-dd HH:mm:ss Z'): ", GetToday(GoDateFormat.ConvertFormat("yyyy-MM-dd HH:mm:ss Z")))
+    fmt.Println("Go Date Format(Today - 'yyyy-MMM-dd'): ", GetToday(GoDateFormat.ConvertFormat("yyyy-MMM-dd")))
+    fmt.Println("Go Time Format(NOW - 'HH:mm:ss'): ", GetToday(GoDateFormat.ConvertFormat("HH:mm:ss")))
 }
 
 func GetToday(format string) (todayString string){
@@ -50,13 +51,15 @@ func GetToday(format string) (todayString string){
 
 ```
 
-### Write Output:
+### Output:
 
 ```go
 
 Output: 
 
-Go Long Date Format(Today): 2017-09-04 17:07:28 IST
+Go Date Format(Today - 'yyyy-MM-dd HH:mm:ss Z'):  2017-33-04 17:07:10 IST
+Go Date Format(Today - 'yyyy-MMM-dd'):  2017-33M-04
+Go Time Format(NOW - 'HH:mm:ss'):  17:07:10
 
 ```
 
