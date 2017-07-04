@@ -4,7 +4,7 @@ package main
 import (
     "fmt"
     "time"
-    "./GoDateFormat"
+    "github.com/vigneshuvi/GoDateFormat"
 )
 
 func main() {
