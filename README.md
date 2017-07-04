@@ -27,7 +27,7 @@ import (
 import "github.com/vigneshuvi/GoDateFormat"
 
 var goFormate = GoDateFormat.ConvertFormat("yyyy-MM-dd HH:mm:ss Z")
-
+fmt.Println("Go Long Date Formate: %s", goFormate)
 
 
 ```
@@ -36,10 +36,17 @@ var goFormate = GoDateFormat.ConvertFormat("yyyy-MM-dd HH:mm:ss Z")
 
 ```go
 
-Output: userlist.csv
+Output: 
 
-name,email
-vignesh,vigneshuvi@gmail.com
-vinoth,vinoth@gmail.com
+Go Long Date Formate: 2017-58-04 16:07:31 IST
 
 ```
+
+## License
+
+SwiftCSVExport is licensed under the Apache License.
+
+## Contact
+
+### Vignesh Kumar
+* http://vigneshuvi.github.io
