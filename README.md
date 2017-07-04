@@ -57,9 +57,9 @@ func GetToday(format string) (todayString string){
 
 Output: 
 
-Go Date Format(Today - 'yyyy-MM-dd HH:mm:ss Z'):  2017-33-04 17:07:10 IST
-Go Date Format(Today - 'yyyy-MMM-dd'):  2017-33M-04
-Go Time Format(NOW - 'HH:mm:ss'):  17:07:10
+Go Date Format(Today - 'yyyy-MM-dd HH:mm:ss Z'):  2017-07-04 17:07:43 IST
+Go Date Format(Today - 'yyyy-MMM-dd'):  2017-Jul-04
+Go Time Format(NOW - 'HH:mm:ss'):  17:07:43
 
 ```
 
