@@ -19,5 +19,3 @@ func GetToday(format string) (todayString string){
     todayString = today.Format(format);
     return
 }
-
-

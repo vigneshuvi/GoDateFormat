@@ -1,5 +1,5 @@
 [![GoDateFormat](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/vigneshuvi/GoDateFormat)
-[![Language Go](https://img.shields.io/badge/Go-Lang-green.svg?style=shields)](https://golang.org/)
+[![Language Go](https://img.shields.io/badge/Language-Go-orange.svg?style=shields)](https://golang.org/)
 
 
 
