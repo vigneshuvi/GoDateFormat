@@ -9,14 +9,13 @@ import (
 const yyyy = "2006"
 const yy = "06"
 
-const mm = "01"
-const mmm = "Jan"
-const mmm = "Jan"
 const mmmm = "January"
+const mmm = "Jan"
+const mm = "01"
 
-const dd = "02"
-const ddd = "Mon"
 const dddd = "Monday"
+const ddd = "Mon"
+const dd = "02"
 
 const HH = "15"
 const MM = "04"
