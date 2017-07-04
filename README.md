@@ -44,7 +44,7 @@ Go Long Date Formate: 2017-58-04 16:07:31 IST
 
 ## License
 
-SwiftCSVExport is licensed under the Apache License.
+GoDateFormat is licensed under the Apache License.
 
 ## Contact
 
