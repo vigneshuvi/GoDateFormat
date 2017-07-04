@@ -3,19 +3,30 @@
 
 
 # GoDateFormat
+
 Convert normal date format into Go lang date format
 
+## Installation
 
-## Importing packages
-
-First thing is to import the package. 
+First thing is to get your GoDateFormat package into your machine.
 
 ```go
 
-import ( 
-	"github.com/vigneshuvi/GoDateFormat"
-	"fmt"
-	)
+go get "github.com/vigneshuvi/GoDateFormat"
+
+```
+
+## Importing packages
+
+Import all necessary packages.("fmt" - Print, "time" - Getting time from machine) 
+
+```go
+
+import (
+    "fmt"
+    "time"
+    "github.com/vigneshuvi/GoDateFormat"
+)
 
 ```
 
@@ -24,10 +35,16 @@ import (
 
 ```go
 
-import "github.com/vigneshuvi/GoDateFormat"
+func main() {
+    var goFormat = GoDateFormat.ConvertFormat("yyyy-MM-dd HH:mm:ss Z")
+    fmt.Println("Go Long Date Format(Today): ", GetToday(goFormat))
+}
 
-var goFormate = GoDateFormat.ConvertFormat("yyyy-MM-dd HH:mm:ss Z")
-fmt.Println("Go Long Date Formate: %s", goFormate)
+func GetToday(format string) (todayString string){
+    today := time.Now()
+    todayString = today.Format(format);
+    return
+}
 
 
 ```
@@ -38,7 +55,7 @@ fmt.Println("Go Long Date Formate: %s", goFormate)
 
 Output: 
 
-Go Long Date Formate: 2017-58-04 16:07:31 IST
+Go Long Date Format(Today): 2017-09-04 17:07:28 IST
 
 ```
 
