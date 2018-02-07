@@ -5,7 +5,7 @@
 
 # GoDateFormat
 
-Convert normal date format into Go lang date format
+Convert normal date/time format into GoLang date/time format
 
 ## Installation
 
