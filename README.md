@@ -5,7 +5,7 @@
 
 # GoDateFormat
 
-Convert normal date/time format into GoLang date/time format
+GoLang date time format - Helpful to convert normal date/time format into GoLang date/time format.
 
 ## Installation
 
