@@ -22,6 +22,8 @@ const  (
 		tt = "PM"
 		Z = "MST"
 		ZZZ = "MST"
+	
+		o = "Z07:00"
 	)
 
 func ConvertFormat(format string) (string){
@@ -95,6 +97,9 @@ func ConvertFormat(format string) (string){
 
 	if strings.Contains(goFormate, "tt"){
 		goFormate = strings.Replace(goFormate, "tt", tt, -1)
+	}
+	if strings.Contains(goFormate, "o"){
+		goFormate = strings.Replace(goFormate, "o", o, -1)
 	} 
 	return (goFormate)
 }
